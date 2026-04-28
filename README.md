@@ -1,32 +1,16 @@
-# LaundroAI POS
+# React + Vite
 
-LaundroAI POS is a modern AI-powered laundry point-of-sale interface designed to help laundry businesses manage orders, customers, pricing, delivery, garment risks, and business insights from one smart dashboard.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Project Goal
+Currently, two official plugins are available:
 
-The goal of this project is to create a visually modern laundry POS system with AI-based features that improve daily operations, reduce garment handling risks, increase revenue through smart upsells, and provide better customer service.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## ✨ Planned Features
+## React Compiler
 
-- Smart laundry order creation
-- AI-based garment risk alerts
-- AI upsell suggestions
-- Garment memory for repeat customers
-- Laundry health dashboard
-- Order status tracking
-- Customer insights
-- Inventory and delivery overview
-- Modern responsive UI
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Tech Stack
+## Expanding the ESLint configuration
 
-- React.js
-- Vite
-- Tailwind CSS
-- Lucide React
-- Framer Motion
-- Recharts
-
-## 📌 Status
-
-Currently under development.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
